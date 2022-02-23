@@ -8,6 +8,7 @@
 body {
   background: #1e1e1e;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 p,
@@ -23,7 +24,6 @@ nav a {
 
 nav a:hover {
   border-bottom: solid white 3px;
-  font-size: 1.2rem;
 }
 
 nav ul {
@@ -61,6 +61,9 @@ nav ul li {
 }
 
 @media (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
   nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -71,6 +74,7 @@ nav ul li {
     top: 80px;
     width: 15%;
     height: 20vh;
+    background-color: black;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
   }

@@ -7,6 +7,7 @@
 body {
   background: rgb(30, 30, 30);
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 p,
 h1 {
@@ -19,10 +20,11 @@ nav {
     color: white;
     padding: 12px 0;
   }
+
   a:hover {
     border-bottom: solid white 3px;
-    font-size: 1.2rem;
   }
+
   ul {
     display: flex;
     justify-content: space-around;
@@ -50,6 +52,9 @@ nav {
   }
 }
 @media (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
   nav {
     ul {
       flex-direction: column;
@@ -58,6 +63,7 @@ nav {
       top: 80px;
       width: 15%;
       height: 20vh;
+      background-color: black;
       transform: translateX(100%);
     }
     .burger {
