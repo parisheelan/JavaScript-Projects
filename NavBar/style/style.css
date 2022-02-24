@@ -61,9 +61,6 @@ nav ul li {
 }
 
 @media (max-width: 800px) {
-  body {
-    overflow-x: hidden;
-  }
   nav ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -77,9 +74,18 @@ nav ul li {
     background-color: black;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    overflow-x: hidden;
   }
   nav .burger {
     display: block;
+  }
+  nav.active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 /*# sourceMappingURL=style.css.map */
