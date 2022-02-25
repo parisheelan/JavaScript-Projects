@@ -71,21 +71,20 @@ nav ul li {
     top: 80px;
     width: 15%;
     height: 20vh;
-    background-color: black;
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    background-color: blue;
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
     -webkit-transition: -webkit-transform 0.5s ease-in;
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
-    overflow-x: hidden;
   }
   nav .burger {
     display: block;
   }
-  nav.active {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+  .nav-active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 /*# sourceMappingURL=style.css.map */

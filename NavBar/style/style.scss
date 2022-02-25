@@ -60,16 +60,15 @@ nav {
       top: 80px;
       width: 15%;
       height: 20vh;
-      background-color: black;
-      transform: translateX(100%);
+      background-color: blue;
+      transform: translateX(50%);
       transition: transform 0.5s ease-in;
-      overflow-x: hidden;
     }
     .burger {
       display: block;
     }
   }
-  nav.active {
-    transform: translateX(0);
+  .nav-active {
+    transform: translateX(0%);
   }
 }
