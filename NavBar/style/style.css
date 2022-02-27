@@ -72,19 +72,17 @@ nav ul li {
     width: 15%;
     height: 20vh;
     background-color: blue;
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
     -webkit-transition: -webkit-transform 0.5s ease-in;
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: none;
   }
   nav .burger {
     display: block;
   }
-  .nav-active {
-    -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+  nav .show {
+    display: block;
   }
 }
 /*# sourceMappingURL=style.css.map */
