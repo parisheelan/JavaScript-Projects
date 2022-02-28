@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  .toggle {
+    color: white;
+    img {
+      content: url("/images/toggle-on.svg");
+    }
+  }
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  h1 {
+    font-size: 3em;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .toggle {
+    img {
+      margin-top: 150px;
+      width: 100px;
+    }
+  }
+}
