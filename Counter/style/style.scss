@@ -29,11 +29,21 @@ body {
       border-radius: 10px;
       border-style: none;
     }
+    button:hover {
+      border: solid 3px white;
+      padding: 47px;
+    }
     .add {
       background-color: rgb(0, 255, 0);
     }
+    .add:hover {
+      background-color: darkgreen;
+    }
     .subtract {
       background-color: rgb(255, 0, 0);
+    }
+    .subtract:hover {
+      background-color: darkred;
     }
   }
 }

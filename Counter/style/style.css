@@ -44,11 +44,24 @@ body .buttons button {
   border-style: none;
 }
 
+body .buttons button:hover {
+  border: solid 3px white;
+  padding: 47px;
+}
+
 body .buttons .add {
   background-color: lime;
 }
 
+body .buttons .add:hover {
+  background-color: darkgreen;
+}
+
 body .buttons .subtract {
   background-color: red;
+}
+
+body .buttons .subtract:hover {
+  background-color: darkred;
 }
 /*# sourceMappingURL=style.css.map */
