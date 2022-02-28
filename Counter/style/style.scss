@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  h1 {
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 3.5rem;
+  }
+  p {
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 2em;
+  }
+  .buttons {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    button {
+      font-size: 2em;
+      padding: 50px;
+      border-radius: 10px;
+      border-style: none;
+    }
+    .add {
+      background-color: rgb(0, 255, 0);
+    }
+    .subtract {
+      background-color: rgb(255, 0, 0);
+    }
+  }
+}
